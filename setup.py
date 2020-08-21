@@ -42,6 +42,7 @@ setup(
         'vw': ['vowpalwabbit==8.7.*'],
         'nn': ['tensorflow-cpu==2.3.0', 'lmdb==0.98'],
         'omikuji': ['omikuji==0.3.*'],
+        'stwfsapy': ['stwfsapy==0.1.2'],
         'dev': [
             'codecov',
             'pytest-cov',
