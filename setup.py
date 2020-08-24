@@ -33,7 +33,8 @@ setup(
         'rdflib',
         'gunicorn',
         'numpy==1.17.*',
-        'optuna==1.5.*'
+        'optuna==1.5.*',
+        'stwfsapy==0.1.3',
     ],
     tests_require=['py', 'pytest', 'requests'],
     extras_require={
@@ -42,7 +43,6 @@ setup(
         'vw': ['vowpalwabbit==8.7.*'],
         'nn': ['tensorflow-cpu==2.3.0', 'lmdb==0.98'],
         'omikuji': ['omikuji==0.3.*'],
-        'stwfsapy': ['stwfsapy==0.1.2'],
         'dev': [
             'codecov',
             'pytest-cov',
